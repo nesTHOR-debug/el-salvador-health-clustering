@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3f0b8426aed29cfbe7df795d97afbd1e {
+                #map_345c610990d3a5677be979aeeae65486 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,30 @@
 <body>
     
     
-            <div class="folium-map" id="map_3f0b8426aed29cfbe7df795d97afbd1e" ></div>
+            <div class="folium-map" id="map_345c610990d3a5677be979aeeae65486" ></div>
         
+    
+<div style="
+    position: fixed; 
+    bottom: 20px; left: 20px; width: 230px; height: auto; 
+    z-index: 9999;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+">
+    <b>Legend</b><br>
+    <i class="fa fa-map-marker fa-2x" style="color:red"></i>&nbsp; Isolated Point (Noise)<br>
+    <i class="fa fa-map-marker fa-2x" style="color:blue"></i>&nbsp; Clustered Point
+</div>
 </body>
 <script>
     
     
-            var map_3f0b8426aed29cfbe7df795d97afbd1e = L.map(
-                "map_3f0b8426aed29cfbe7df795d97afbd1e",
+            var map_345c610990d3a5677be979aeeae65486 = L.map(
+                "map_345c610990d3a5677be979aeeae65486",
                 {
                     center: [13.7, -89.2],
                     crs: L.CRS.EPSG3857,
@@ -63,7 +79,7 @@
 
         
     
-            var tile_layer_e7db51da44f27902c616057025269c9a = L.tileLayer(
+            var tile_layer_eae27a873a5211db5aed0ca6ebf4019b = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -80,7 +96,7 @@
             );
         
     
-            tile_layer_e7db51da44f27902c616057025269c9a.addTo(map_3f0b8426aed29cfbe7df795d97afbd1e);
+            tile_layer_eae27a873a5211db5aed0ca6ebf4019b.addTo(map_345c610990d3a5677be979aeeae65486);
         
 </script>
 </html>
